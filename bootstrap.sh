@@ -31,6 +31,9 @@ source /home/vagrant/.bashrc
 
 # *** extention ***
 
-# go packege
+# go packeges
 go get github.com/mattn/gorem
 go get github.com/mattn/goreman
+
+# my projects
+go get github.com/issuy/go-web-test
