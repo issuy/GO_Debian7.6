@@ -21,10 +21,11 @@ cat <<EOF >> /home/vagrant/.bashrc
 # GoLang
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
+EOF
+source /home/vagrant/.bashrc
+cat <<EOF >> /home/vagrant/.bashrc
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 EOF
-
-# activate bashrc
 source /home/vagrant/.bashrc
 
 
