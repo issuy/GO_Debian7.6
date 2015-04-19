@@ -20,12 +20,11 @@ sudo tar zxvf /tmp/go1.4.2.linux-amd64.tar.gz -C /usr/local > /dev/null 2>&1
 cat <<EOF >> /home/vagrant/.bashrc
 # GoLang
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
+export GOPATH=\$HOME/go
+export PATH=\$PATH:\$GOROOT/bin:\$GOPATH/bin
 EOF
-source /home/vagrant/.bashrc
-cat <<EOF >> /home/vagrant/.bashrc
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-EOF
+
+# activate .bashrc
 source /home/vagrant/.bashrc
 
 
