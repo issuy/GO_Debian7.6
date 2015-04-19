@@ -26,3 +26,11 @@ EOF
 
 # activate bashrc
 source /home/vagrant/.bashrc
+
+
+
+# *** extention ***
+
+# go packege
+go get github.com/mattn/gorem
+go get github.com/mattn/goreman
