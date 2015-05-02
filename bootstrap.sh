@@ -34,6 +34,7 @@ source /home/vagrant/.bashrc
 # go packeges
 go get github.com/mattn/gorem
 go get github.com/mattn/goreman
+go get github.com/zenazn/goji
 
 # my projects
 go get github.com/issuy/go-web-test

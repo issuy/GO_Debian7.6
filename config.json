@@ -1,0 +1,11 @@
+{
+    "server1":{
+        "entries":[
+            {
+                "path":"/app/",
+                "backend":"http://localhost:5001"
+            }
+        ],
+        "address":"192.168.33.10:8080"
+    }
+}
